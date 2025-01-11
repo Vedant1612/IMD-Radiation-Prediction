@@ -140,12 +140,12 @@ function DataVisualization() {
   return (
     <div>
       <Navbar />
-      <div className="bg-gradient-to-r from-teal-300 to-blue-200 min-h-screen p-8 pt-20">
+      <div className="bg-gradient-to-r from-gray-900 via-purple-900 to-gray-900 min-h-screen p-6 pt-24">
         {/* Banger Header */}
         <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-pink-800 mb-8 text-center">
           Radiation Data Visualization
         </h2>
-        <div className="bg-white p-8 rounded-lg shadow-xl border border-gray-200">
+        <div className="bg-purple-100 p-8 rounded-lg shadow-xl border border-gray-200">
           <h3 className="text-3xl font-semibold mb-6 text-gray-700">Radiation Levels Over Time</h3>
 
           {/* Time Period and Chart Type Selectors */}

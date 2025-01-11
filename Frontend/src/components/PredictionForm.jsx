@@ -52,14 +52,14 @@ function PredictionForm() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-300 via-indigo-200 to-pink-300">
-      <Navbar />
-      <div className="flex items-center justify-center min-h-screen pt-24">
+    <div className="bg-gradient-to-r from-gray-900 via-purple-900 to-gray-900 min-h-screen p-6 pt-24">
+    <Navbar />
+      <div className="flex items-center justify-center pt-24">
         {/* Conditional rendering for form and report */}
         {!viewReport ? (
-          <div className="bg-white p-10 rounded-2xl shadow-xl max-w-3xl w-full space-y-8">
-            <h2 className="text-4xl font-extrabold text-gray-900 text-center">Predict Radiation</h2>
-
+          <div className="bg-purple-100 p-10 rounded-2xl shadow-xl max-w-3xl w-full space-y-8">
+            <h2 className="text-5xl font-extrabold text-purple-600 mb-8 text-center tracking-tight">Predict Radiation</h2>
+            
             {/* Form for input */}
             <form
               className="space-y-6"

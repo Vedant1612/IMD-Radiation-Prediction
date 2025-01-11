@@ -123,7 +123,7 @@ function CorrelationMatrix() {
   return (
     <div>
       <Navbar />
-      <div className="bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 min-h-screen p-8 pt-20">
+      <div className="bg-gradient-to-r from-gray-900 via-purple-900 to-gray-900 min-h-screen p-6 pt-24">
         {/* Banger Header */}
         <header className="text-center mb-5">
           <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
@@ -132,7 +132,7 @@ function CorrelationMatrix() {
         </header>
 
         {/* Main Content */}
-        <div className="bg-white p-8 rounded-xl shadow-xl max-w-5xl mx-auto">
+        <div className="bg-purple-100 p-8 rounded-xl shadow-xl max-w-5xl mx-auto">
           <div className="flex justify-between items-center mb-8">
             <h3 className="text-3xl font-semibold text-gray-800">Correlation Analysis</h3>
             <div className="flex space-x-4">

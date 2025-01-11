@@ -4,10 +4,10 @@ function UploadData() {
   return (
     <div>
       <Navbar />
-      <div className="bg-gradient-to-r from-teal-100 via-purple-100 to-pink-100 min-h-screen p-8 pt-20">
+      <div className="bg-gradient-to-r from-gray-900 via-purple-900 to-gray-900 min-h-screen p-6 pt-24">
         {/* Added pt-20 to create space for the fixed navbar */}
-        <h2 className="text-4xl font-bold text-gray-900 mb-8">Upload Data</h2>
-        <form className="bg-white p-8 rounded-xl shadow-lg space-y-6 max-w-3xl mx-auto">
+        <h2 className="text-5xl font-extrabold text-purple-300 mb-8 text-center tracking-tight">Upload Data</h2>
+        <form className="bg-purple-100 p-8 rounded-xl shadow-lg space-y-6 max-w-3xl mx-auto">
           <div>
             <label className="block text-lg font-medium text-gray-700">Select File</label>
             <input
